@@ -11,6 +11,8 @@ public class PruebaAritmetica {
         int resultado = aritmetica.sumar();
         System.out.println("resultado = " + resultado);
         
+        Aritmetica aritmetica2 = new Aritmetica(8, 8);
+        System.out.println("resultado2 = " + aritmetica2.sumar());
         
     }
 }
