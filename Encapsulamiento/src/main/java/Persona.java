@@ -33,6 +33,15 @@ public class Persona {
         this.eliminado = eliminado;
     }
     
+//    public String toString(){
+//        return "nombre: " + nombre + ", sueldo:" + sueldo + ", eliminado:" + eliminado;
+//    }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", sueldo=" + sueldo + ", eliminado=" + eliminado + '}';
+    }
+    
     
     
 }
