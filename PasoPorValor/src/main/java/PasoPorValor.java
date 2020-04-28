@@ -12,7 +12,6 @@ public class PasoPorValor {
         cambiarValor(x);
         System.out.println("x = " + x);
         
-        
     }
 
     private static void cambiarValor(int arg) {
