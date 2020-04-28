@@ -6,8 +6,9 @@ public class PruebaAritmetica {
         
         // Creamos un objeto de tipo aritmetica
         Aritmetica aritmetica = new Aritmetica();
-        
-        int resultado = aritmetica.sumar(5, 5);
+        aritmetica.a = 10;
+        aritmetica.b = 20;
+        int resultado = aritmetica.sumar();
         System.out.println("resultado = " + resultado);
         
         
