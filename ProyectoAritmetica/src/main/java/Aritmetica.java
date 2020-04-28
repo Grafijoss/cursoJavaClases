@@ -8,15 +8,33 @@ public class Aritmetica {
         System.out.println("Ejecutando el constructor vacio");
     }
     
-     public Aritmetica(int arg1, int arg2) {  // Con argumentos
+     public Aritmetica(int a, int b) {  // Con argumentos
          
-        a = arg1;
-        b = arg2;
+        this.a = a;
+        this.b = b;
         System.out.println("Ejecutando el constructor con argumentos");
     }
     
+     /*
     public int sumar() {
         int resultado = a + b;
         return resultado;
+    }
+    */
+     
+    public int sumar() {
+      return this.a + this.b;
+    }
+    
+    public int restar() {
+      return this.a - this.b;
+    }
+    
+    public int multiplicar() {
+      return this.a * this.b;
+    }
+    
+    public int dividir() {
+      return this.a / this.b;
     }
 }
